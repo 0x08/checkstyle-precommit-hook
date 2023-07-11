@@ -13,7 +13,7 @@ changed_java_files=$(git diff --cached --name-only --diff-filter=ACMR | grep ".*
 echo $changed_java_files
 
 if [ ! -f lib/checkstyle.xml ]; then
-  echo "Please ensure lib/checkstyle.xml" exists!"
+  echo "Please ensure lib/checkstyle.xml exists!"
   exit 1
 fi
 
