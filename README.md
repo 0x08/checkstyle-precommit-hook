@@ -1,12 +1,14 @@
 A handy [pre-commit](http://pre-commit.com/) hook which will run Checkstyle's
 code style formatter for you on your code!
 
+Please ensure that a `checkstyle.xml` file is in the root of your project.
+
 Usage:
 
 ```
 repos:
 - repo: https://github.com/0x08/checkstyle-precommit-hook
-  rev: 3c5665e934e29dd36f49916407bd606cd24767e2
+  rev: b09cd9baf3950c92574efb17f4a14c1f43a28d3f
   hooks:
     - id: checkstyle-java
 ```
